@@ -1,0 +1,66 @@
+{
+  // The plugin looks for a .jshintrc file in the same directory as the source
+  // file you're prettifying (or any directory above if it doesn't exist, or in
+  // your home folder if everything else fails) and uses those options along
+  // the default ones.
+
+  // Details: https://github.com/victorporof/Sublime-JSHint#using-your-own-jshintrc-options
+  // Example: https://github.com/jshint/jshint/blob/master/examples/.jshintrc
+  // Documentation: http://www.jshint.com/docs/options/
+    "boss": true
+  , "browser": true
+  , "curly": true
+  , "eqeqeq": true
+  , "eqnull": true
+  , "expr": true
+  , "latedef": true
+  , "laxcomma": true
+  , "newcap": true
+  , "noarg": true
+  , "sub": true
+  , "undef": true
+  , "loopfunc": true
+  , "globals": {
+        "$": true
+      , "jQuery": true
+      , "require": true
+      , "alert": true
+      , "put": true
+      , "console": true
+      , "Mousetrap": true
+      , "WorkerUtilities": true
+      , "ActiveXObject": true
+      , "Comb": true
+      , "ace": true
+      , "Revolver": true
+
+      , "CoffeeBuilderSimpleCollection": true
+      , "CoffeeBuilderDocumentManager": true
+      , "CoffeeBuilderInheritanceMap": true
+      , "CoffeeBuilderNotifications": true
+      , "CoffeeBuilderGridGenerator": true
+			, "CoffeeBuilderUndoManager": true
+			, "CoffeeBuilderSelections": true
+      , "CoffeeBuilderStylesheet": true
+      , "CoffeeBuilderCollection": true
+      , "CoffeeBuilderBreakpoint": true
+      , "CoffeeBuilderSlideshow": true
+      , "CoffeeBuilderTemplates": true
+      , "CoffeeBuilderControls": true
+			, "CoffeeBuilderControl": true
+      , "CoffeeBuilderEvents": true
+      , "CoffeeBuilderSlide": true
+      , "CoffeeBuilderUtil": true
+      , "CoffeeBuilder": true
+
+      , "CssParser": true
+      , "FrameworkExporter": true
+      , "app": true
+
+      , "describe": true
+      , "beforeEach": true
+      , "it": true
+      , "expect": true
+      , "sinon": true
+    }
+}
