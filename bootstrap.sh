@@ -7,7 +7,7 @@ cp dotfiles/gitconfig ~/.gitconfig
 cp dotfiles/inputrc ~/.inputrc
 cp dotfiles/jshintrc ~/.jshintrc
 cp dotfiles/nvimrc ~/.nvimrc
-cp dotfiles/tmux ~/tmux.conf
+cp dotfiles/tmux.conf ~/tmux.conf
 cp dotfiles/vimrc ~/.vimrc
 cp dotfiles/wgetrc ~/.wgetrc
 cp -i dotfiles/bashrc ~/.bashrc
