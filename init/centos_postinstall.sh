@@ -1,4 +1,4 @@
-l #!/bin/bash
+#!/bin/bash
 
 # RPM Fusion
 echo "Install Epel and other things";
