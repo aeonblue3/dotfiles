@@ -30,32 +30,6 @@
       , "Mousetrap": true
       , "WorkerUtilities": true
       , "ActiveXObject": true
-      , "Comb": true
-      , "ace": true
-      , "Revolver": true
-
-      , "CoffeeBuilderSimpleCollection": true
-      , "CoffeeBuilderDocumentManager": true
-      , "CoffeeBuilderInheritanceMap": true
-      , "CoffeeBuilderNotifications": true
-      , "CoffeeBuilderGridGenerator": true
-			, "CoffeeBuilderUndoManager": true
-			, "CoffeeBuilderSelections": true
-      , "CoffeeBuilderStylesheet": true
-      , "CoffeeBuilderCollection": true
-      , "CoffeeBuilderBreakpoint": true
-      , "CoffeeBuilderSlideshow": true
-      , "CoffeeBuilderTemplates": true
-      , "CoffeeBuilderControls": true
-			, "CoffeeBuilderControl": true
-      , "CoffeeBuilderEvents": true
-      , "CoffeeBuilderSlide": true
-      , "CoffeeBuilderUtil": true
-      , "CoffeeBuilder": true
-
-      , "CssParser": true
-      , "FrameworkExporter": true
-      , "app": true
 
       , "describe": true
       , "beforeEach": true
