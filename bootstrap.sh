@@ -31,7 +31,7 @@ else
 	cp dotfiles/linux_aliases ~/.aliases
 	if [ -n "$(type -t dnf)" ]; then
 		bash init/fedora_postinstall.sh
-	elif [ -n "$(type -t yum)" ];
-		bash init/fedora_postinstall.sh
+	elif [ -n "$(type -t yum)" ]; then
+		bash init/centos_postinstall.sh
 	fi
 fi
