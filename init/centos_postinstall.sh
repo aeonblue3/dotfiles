@@ -61,12 +61,6 @@ echo "Install Software"
 echo ""
 sudo yum install -y curl git htop ngrep nodejs screenfetch subversion tree tmux vim
 
-# Copy local dotfiles
-current_dir=$(pwd)
-cd ..
-sh bootstrap.sh
-cd current_dir
-
 # Vim
 echo "Install vim plugins"
 echo ""

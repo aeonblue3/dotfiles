@@ -16,16 +16,12 @@ echo "Dotfiles copied!"
 echo ""
 
 if [[ $OSTYPE == darwin* ]]; then
-	OS_STRING = "MacOS"
-
 	echo "Setting up MacOS..."
 	echo ""
 	cp dotfiles/mac_aliases ~/.aliases
 	bash init/mac_setup.sh
 	cp sublime-text/sublimeconfig ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 else
-	OS_STRING = "Linux"
-
 	echo "Setting up Linux..."
 	echo ""
 	cp dotfiles/linux_aliases ~/.aliases

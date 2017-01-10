@@ -95,12 +95,6 @@ curl -L git.io/sublimetext | sh
 cd $HOME/.config/sublime-text-3/Installed\ Packages && wget http://packagecontrol.io/Package%20Control.sublime-package
 cd ~
 
-# Copy local dotfiles
-current_dir=$(pwd)
-cd ..
-sh bootstrap.sh
-cd current_dir
-
 # bash
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 ~/.bash_it/install.sh --interactive
