@@ -32,29 +32,30 @@ Plugin 'CruizeMissile/Revolution.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'Yggdroot/indentLine'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'myusuf3/numbers.vim'
+Plugin 'wincent/command-t'
+""Plugin 'myusuf3/numbers.vim'
 
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
-Plugin 'kien/ctrlp.vim'
+""Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'ervandew/supertab'
 Plugin 'majutsushi/tagbar'
-Plugin 'Shougo/vimshell.vim'
 Plugin 'davidhalter/jedi-vim'
-Plugin 'scrooloose/nerdcommenter'
 
 Plugin 'mileszs/ack.vim'
 Plugin 'rking/ag.vim'
 Plugin 'marijnh/tern_for_vim'
 
-Plugin 'amirh/HTML-AutoCloseTag'
+""Plugin 'amirh/HTML-AutoCloseTag'
 Plugin 'pangloss/vim-javascript'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'tpope/vim-haml'
 Plugin 'groenewege/vim-less'
+
+Plugin 'vim-airline/vim-airline-themes'
 
 "" PHP Bundle
 Plugin 'arnaud-lb/vim-php-namespace'
@@ -108,6 +109,8 @@ set incsearch
 set ignorecase
 set smartcase
 set showmatch
+"" Search visually selected text withh //
+vnoremap // y/<C-R>"<CR>
 
 "" Directories for swp files
 set nobackup
@@ -167,9 +170,12 @@ nnoremap <silent> <F2> :NERDTreeFind<CR>
 noremap <F3> :NERDTreeToggle<CR>
 
 " vimshell
-let g:vimshell_user_prompt = 'fnamemodify(getcwd(), ":~")'
-let g:vimshell_prompt =  '$ '
-nnoremap <silent> <leader>sh :VimShellCreate<CR>
+"let g:vimshell_user_prompt = 'fnamemodify(getcwd(), ":~")'
+"let g:vimshell_prompt =  '$ '
+"nnoremap <silent> <leader>sh :VimShellCreate<CR>
+
+" Command-t
+let g:CommandTFileScanner = "git"
 
 "*****************************************************************************
 "" Autocmd Rules
